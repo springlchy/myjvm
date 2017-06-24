@@ -1,0 +1,39 @@
+--------------------------------------------
+constant_pool_count: 15
+#1	Methodref	 #3.#12 // java/lang/Object.<init>:()V
+#2	Class	 #13	// test/IOUtil
+#3	Class	 #14	// java/lang/Object
+#4	Utf8		<init>
+#5	Utf8		()V
+#6	Utf8		Code
+#7	Utf8		LineNumberTable
+#8	Utf8		writeString
+#9	Utf8		(Ljava/lang/String;)V
+#10	Utf8		SourceFile
+#11	Utf8		IOUtil.java
+#12	NameAndType		 #4:#5 // <init>:()V
+#13	Utf8		test/IOUtil
+#14	Utf8		java/lang/Object
+access_flag: 0020	ACC_SUPER 
+this_class: #2	test/IOUtil
+super_class: #3	java/lang/Object
+--------------------------------------------
+interface_count: 0
+--------------------------------------------
+fields_count: 0
+--------------------------------------------
+method=<init>-----------code begin-----------------
+   0: aload_0 
+   1: invokespecial #1
+   4: return 
+-----------code end-----------------
+method=writeStringmethods_count: 2
+methods[0]: , [name_index=4] <init>: [desc_index=5] ()V
+	args_len=0
+	attributes_count: 1
+		attributes[0]: #6 // Code
+		length=29
+methods[1]: ACC_PUBLIC ACC_STATIC ACC_NATIVE , [name_index=8] writeString: [desc_index=9] (Ljava/lang/String;)V
+	args_len=4
+	attributes_count: 0
+--------------------------------------------

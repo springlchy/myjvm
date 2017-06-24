@@ -1,0 +1,70 @@
+Classfile /E:/JavaWeb/test/src/test/Child.class
+  Last modified 2017-6-6; size 335 bytes
+  MD5 checksum 6cfea29d9e0150f7f261371e6afb83bb
+  Compiled from "Child.java"
+class test.Child extends test.Parent
+  SourceFile: "Child.java"
+  minor version: 0
+  major version: 52
+  flags: ACC_SUPER
+Constant pool:
+   #1 = Methodref          #6.#17         //  test/Parent."<init>":()V
+   #2 = Fieldref           #5.#18         //  test/Child.x2:I
+   #3 = Methodref          #5.#19         //  test/Child.addXY:()I
+   #4 = Methodref          #6.#20         //  test/Parent.getZ1:()I
+   #5 = Class              #21            //  test/Child
+   #6 = Class              #22            //  test/Parent
+   #7 = Utf8               x2
+   #8 = Utf8               I
+   #9 = Utf8               <init>
+  #10 = Utf8               ()V
+  #11 = Utf8               Code
+  #12 = Utf8               LineNumberTable
+  #13 = Utf8               doSomething
+  #14 = Utf8               ()I
+  #15 = Utf8               SourceFile
+  #16 = Utf8               Child.java
+  #17 = NameAndType        #9:#10         //  "<init>":()V
+  #18 = NameAndType        #7:#8          //  x2:I
+  #19 = NameAndType        #23:#14        //  addXY:()I
+  #20 = NameAndType        #24:#14        //  getZ1:()I
+  #21 = Utf8               test/Child
+  #22 = Utf8               test/Parent
+  #23 = Utf8               addXY
+  #24 = Utf8               getZ1
+{
+  test.Child();
+    descriptor: ()V
+    flags: 
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0       
+         1: invokespecial #1                  // Method test/Parent."<init>":()V
+         4: aload_0       
+         5: iconst_4      
+         6: putfield      #2                  // Field x2:I
+         9: return        
+      LineNumberTable:
+        line 3: 0
+        line 5: 4
+
+  public int doSomething();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=1
+         0: aload_0       
+         1: invokevirtual #3                  // Method addXY:()I
+         4: istore_1      
+         5: iload_1       
+         6: aload_0       
+         7: invokespecial #4                  // Method test/Parent.getZ1:()I
+        10: iadd          
+        11: aload_0       
+        12: getfield      #2                  // Field x2:I
+        15: iadd          
+        16: ireturn       
+      LineNumberTable:
+        line 9: 0
+        line 11: 5
+}

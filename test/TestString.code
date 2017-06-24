@@ -1,0 +1,49 @@
+--------------------------------------------
+constant_pool_count: 41
+access_flag: 0020	ACC_SUPER 
+this_class: #10	test/TestString
+super_class: #11	java/lang/Object
+--------------------------------------------
+interface_count: 0
+--------------------------------------------
+fields_count: 0
+--------------------------------------------
+method=<init>-----------code begin-----------------
+   0: aload_0 
+   1: invokespecial #1
+   4: return 
+-----------code end-----------------
+method=write-----------code begin-----------------
+   0: new #2
+   3: dup 
+   4: invokespecial #3
+   7: ldc #4
+   9: invokevirtual #5
+  12: iload_0 
+  13: invokevirtual #6
+  16: invokevirtual #7
+  19: invokestatic #8
+  22: return 
+-----------code end-----------------
+method=main-----------code begin-----------------
+   0: bipush 
+   2: invokestatic #9
+   5: return 
+-----------code end-----------------
+methods_count: 3
+methods[0]: , [name_index=12] <init>: [desc_index=13] ()V
+	args_len=0
+	attributes_count: 1
+		attributes[0]: #14 // Code
+		length=29
+methods[1]: ACC_PRIVATE ACC_STATIC , [name_index=16] write: [desc_index=17] (I)V
+	args_len=4
+	attributes_count: 1
+		attributes[0]: #14 // Code
+		length=51
+methods[2]: ACC_PUBLIC ACC_STATIC , [name_index=18] main: [desc_index=19] ([Ljava/lang/String;)V
+	args_len=4
+	attributes_count: 1
+		attributes[0]: #14 // Code
+		length=34
+--------------------------------------------

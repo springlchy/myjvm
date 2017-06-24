@@ -1,0 +1,83 @@
+Classfile /E:/JavaWeb/test/src/test/Average.class
+  Last modified 2017-6-3; size 390 bytes
+  MD5 checksum 4949687f2ce430f260550f8a572b9f02
+  Compiled from "Average.java"
+public class test.Average
+  SourceFile: "Average.java"
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #3.#14         //  java/lang/Object."<init>":()V
+   #2 = Class              #15            //  test/Average
+   #3 = Class              #16            //  java/lang/Object
+   #4 = Utf8               <init>
+   #5 = Utf8               ()V
+   #6 = Utf8               Code
+   #7 = Utf8               LineNumberTable
+   #8 = Utf8               main
+   #9 = Utf8               ([Ljava/lang/String;)V
+  #10 = Utf8               StackMapTable
+  #11 = Class              #17            //  "[Ljava/lang/String;"
+  #12 = Utf8               SourceFile
+  #13 = Utf8               Average.java
+  #14 = NameAndType        #4:#5          //  "<init>":()V
+  #15 = Utf8               test/Average
+  #16 = Utf8               java/lang/Object
+  #17 = Utf8               [Ljava/lang/String;
+{
+  public test.Average();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0       
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return        
+      LineNumberTable:
+        line 3: 0
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=4, locals=6, args_size=1
+         0: bipush        100
+         2: istore_3      
+         3: iconst_0      
+         4: istore        4
+         6: iconst_1      
+         7: istore        5
+         9: iload         5
+        11: iload_3       
+        12: if_icmpgt     28
+        15: iload         4
+        17: iload         5
+        19: iadd          
+        20: istore        4
+        22: iinc          5, 1
+        25: goto          9
+        28: iload         4
+        30: i2d           
+        31: iload_3       
+        32: i2d           
+        33: ddiv          
+        34: dstore_1      
+        35: return        
+      LineNumberTable:
+        line 6: 0
+        line 7: 3
+        line 9: 6
+        line 10: 15
+        line 9: 22
+        line 13: 28
+        line 14: 35
+      StackMapTable: number_of_entries = 2
+           frame_type = 255 /* full_frame */
+          offset_delta = 9
+          locals = [ class "[Ljava/lang/String;", top, top, int, int, int ]
+          stack = []
+           frame_type = 250 /* chop */
+          offset_delta = 18
+
+}

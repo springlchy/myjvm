@@ -1,0 +1,95 @@
+Classfile /E:/JavaWeb/test/src/test/Parent.class
+  Last modified 2017-6-6; size 440 bytes
+  MD5 checksum f70010a25b416f32436d416804b7567e
+  Compiled from "Parent.java"
+class test.Parent
+  SourceFile: "Parent.java"
+  minor version: 0
+  major version: 52
+  flags: ACC_SUPER
+Constant pool:
+   #1 = Methodref          #6.#22         //  java/lang/Object."<init>":()V
+   #2 = Fieldref           #5.#23         //  test/Parent.z1:I
+   #3 = Fieldref           #5.#24         //  test/Parent.x1:I
+   #4 = Fieldref           #5.#25         //  test/Parent.y1:I
+   #5 = Class              #26            //  test/Parent
+   #6 = Class              #27            //  java/lang/Object
+   #7 = Utf8               x1
+   #8 = Utf8               I
+   #9 = Utf8               y1
+  #10 = Utf8               z1
+  #11 = Utf8               <init>
+  #12 = Utf8               ()V
+  #13 = Utf8               Code
+  #14 = Utf8               LineNumberTable
+  #15 = Utf8               setZ1
+  #16 = Utf8               (I)V
+  #17 = Utf8               getZ1
+  #18 = Utf8               ()I
+  #19 = Utf8               addXY
+  #20 = Utf8               SourceFile
+  #21 = Utf8               Parent.java
+  #22 = NameAndType        #11:#12        //  "<init>":()V
+  #23 = NameAndType        #10:#8         //  z1:I
+  #24 = NameAndType        #7:#8          //  x1:I
+  #25 = NameAndType        #9:#8          //  y1:I
+  #26 = Utf8               test/Parent
+  #27 = Utf8               java/lang/Object
+{
+  public int x1;
+    descriptor: I
+    flags: ACC_PUBLIC
+
+  protected int y1;
+    descriptor: I
+    flags: ACC_PROTECTED
+
+  test.Parent();
+    descriptor: ()V
+    flags: 
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0       
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return        
+      LineNumberTable:
+        line 3: 0
+
+  public void setZ1(int);
+    descriptor: (I)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0       
+         1: iload_1       
+         2: putfield      #2                  // Field z1:I
+         5: return        
+      LineNumberTable:
+        line 11: 0
+        line 12: 5
+
+  public int getZ1();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0       
+         1: getfield      #2                  // Field z1:I
+         4: ireturn       
+      LineNumberTable:
+        line 15: 0
+
+  protected int addXY();
+    descriptor: ()I
+    flags: ACC_PROTECTED
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0       
+         1: getfield      #3                  // Field x1:I
+         4: aload_0       
+         5: getfield      #4                  // Field y1:I
+         8: iadd          
+         9: ireturn       
+      LineNumberTable:
+        line 20: 0
+}
