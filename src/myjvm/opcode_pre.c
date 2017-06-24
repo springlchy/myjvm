@@ -1,3 +1,11 @@
+/**
+ * +-----------------------------------------------------------------+
+ * |  myjvm writing a Java virtual machine step by step (C version)  |
+ * +-----------------------------------------------------------------+
+ * |  Author: springlchy <sisbeau@126.com>  All Rights Reserved      |
+ * +-----------------------------------------------------------------+
+ */
+
 #ifndef OPCODE_PRE_C
 #define OPCODE_PRE_C
 

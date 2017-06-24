@@ -1,3 +1,11 @@
+/**
+ * +-----------------------------------------------------------------+
+ * |  myjvm writing a Java virtual machine step by step (C version)  |
+ * +-----------------------------------------------------------------+
+ * |  Author: springlchy <sisbeau@126.com>  All Rights Reserved      |
+ * +-----------------------------------------------------------------+
+ */
+
 #ifndef MY_TYPES_H
 #define MY_TYPES_H
 

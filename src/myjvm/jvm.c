@@ -1,3 +1,11 @@
+/**
+ * +-----------------------------------------------------------------+
+ * |  myjvm writing a Java virtual machine step by step (C version)  |
+ * +-----------------------------------------------------------------+
+ * |  Author: springlchy <sisbeau@126.com>  All Rights Reserved      |
+ * +-----------------------------------------------------------------+
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
